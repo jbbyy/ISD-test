@@ -1,0 +1,36 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider IDE
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Logs
+*.log
+
+# Publish folder
+publish/
+
+# User secrets
+secrets.json
+appsettings.*.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

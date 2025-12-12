@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Id": "194c88eb-9490-45a6-8ab4-c66a1e27c9aa",
+    "Firstname": "Angela",
+    "LastName": "Tan",
+    "Gender": "Female",
+    "IsActive": true
+  },
+  {
+    "Id": "e1784f69-5d64-45ac-9a70-c40f3ad347aa",
+    "Firstname": "Marcus",
+    "LastName": "Lim",
+    "Gender": "Male",
+    "IsActive": true
+  },
+  {
+    "Id": "C6437209c-9bd7-4f2c-a66a-92971edc9f09",
+    "Firstname": "Daphne",
+    "LastName": "Goh",
+    "Gender": "Female",
+    "IsActive": true
+  }
+]
