@@ -33,3 +33,28 @@
 2025-12-13 10:55:02.523 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1)'
 2025-12-13 10:55:02.524 +08:00 [INF] Route matched with {action = "DeleteCustomer", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteCustomer(System.String) on controller WebApplication1.Controllers.CustomerController (WebApplication1).
 2025-12-13 10:55:22.710 +08:00 [ERR] Unable to find customer abcd for deletion
+2025-12-13 11:04:24.597 +08:00 [INF] Starting WebApplication1
+2025-12-13 11:04:24.880 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-13 11:04:24.907 +08:00 [INF] Hosting environment: Development
+2025-12-13 11:04:24.909 +08:00 [INF] Content root path: C:\Users\ChiengAbigail\Desktop\WebApplication1\WebApplication1
+2025-12-13 11:04:24.979 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44369/swagger/index.html - null null
+2025-12-13 11:04:25.285 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44369/swagger/index.html - 200 null text/html;charset=utf-8 310.975ms
+2025-12-13 11:04:25.857 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44369/swagger/v1/swagger.json - null null
+2025-12-13 11:04:26.032 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44369/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 175.4956ms
+2025-12-13 11:04:42.823 +08:00 [INF] Request starting HTTP/2 DELETE https://localhost:44369/Customer/Delete/abcd - null null
+2025-12-13 11:04:42.859 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1)'
+2025-12-13 11:04:42.972 +08:00 [INF] Route matched with {action = "DeleteCustomer", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteCustomer(System.String) on controller WebApplication1.Controllers.CustomerController (WebApplication1).
+2025-12-13 11:04:48.043 +08:00 [ERR] Unable to find customer abcd for deletion
+2025-12-13 11:04:48.052 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'WebApplication1.Models.CustomerResult'.
+2025-12-13 11:04:48.067 +08:00 [INF] Executed action WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1) in 5090.5704ms
+2025-12-13 11:04:48.068 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1)'
+2025-12-13 11:04:48.068 +08:00 [INF] Request finished HTTP/2 DELETE https://localhost:44369/Customer/Delete/abcd - 400 null application/json; charset=utf-8 5245.4992ms
+2025-12-13 11:24:38.477 +08:00 [INF] Starting WebApplication1
+2025-12-13 11:24:38.957 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-13 11:24:38.984 +08:00 [INF] Hosting environment: Development
+2025-12-13 11:24:38.990 +08:00 [INF] Content root path: C:\Users\ChiengAbigail\Desktop\WebApplication1\WebApplication1
+2025-12-13 11:24:39.053 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44369/swagger/index.html - null null
+2025-12-13 11:24:39.486 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44369/swagger/index.html - 200 null text/html;charset=utf-8 449.7764ms
+2025-12-13 11:24:39.650 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44369/swagger/v1/swagger.json - null null
+2025-12-13 11:24:39.890 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44369/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 240.5264ms
+2025-12-13 12:02:15.545 +08:00 [INF] Application is shutting down...
