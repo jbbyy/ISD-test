@@ -1,0 +1,35 @@
+2025-12-13 10:49:42.157 +08:00 [INF] Starting WebApplication1
+2025-12-13 10:49:43.030 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-13 10:49:43.041 +08:00 [INF] Hosting environment: Development
+2025-12-13 10:49:43.070 +08:00 [INF] Content root path: C:\Users\ChiengAbigail\Desktop\WebApplication1\WebApplication1
+2025-12-13 10:49:43.240 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44369/swagger/index.html - null null
+2025-12-13 10:49:44.014 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44369/swagger/index.html - 200 null text/html;charset=utf-8 788.9803ms
+2025-12-13 10:49:44.140 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44369/swagger/v1/swagger.json - null null
+2025-12-13 10:49:44.554 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44369/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 415.5596ms
+2025-12-13 10:50:37.781 +08:00 [INF] Request starting HTTP/2 DELETE https://localhost:44369/Customer/Delete/abcs - null null
+2025-12-13 10:50:37.847 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1)'
+2025-12-13 10:50:37.950 +08:00 [INF] Route matched with {action = "DeleteCustomer", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteCustomer(System.String) on controller WebApplication1.Controllers.CustomerController (WebApplication1).
+2025-12-13 10:50:38.256 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'WebApplication1.Models.CustomerResult'.
+2025-12-13 10:50:38.300 +08:00 [INF] Executed action WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1) in 336.4206ms
+2025-12-13 10:50:38.300 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1)'
+2025-12-13 10:50:38.301 +08:00 [INF] Request finished HTTP/2 DELETE https://localhost:44369/Customer/Delete/abcs - 400 null application/json; charset=utf-8 532.9221ms
+2025-12-13 10:54:24.718 +08:00 [INF] Starting WebApplication1
+2025-12-13 10:54:25.368 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-13 10:54:25.412 +08:00 [INF] Hosting environment: Development
+2025-12-13 10:54:25.417 +08:00 [INF] Content root path: C:\Users\ChiengAbigail\Desktop\WebApplication1\WebApplication1
+2025-12-13 10:54:25.546 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44369/swagger/index.html - null null
+2025-12-13 10:54:26.162 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44369/swagger/index.html - 200 null text/html;charset=utf-8 627.577ms
+2025-12-13 10:54:26.340 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44369/swagger/v1/swagger.json - null null
+2025-12-13 10:54:26.771 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44369/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 432.7777ms
+2025-12-13 10:54:41.763 +08:00 [INF] Request starting HTTP/2 DELETE https://localhost:44369/Customer/Delete/abcd - null null
+2025-12-13 10:54:41.797 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1)'
+2025-12-13 10:54:41.895 +08:00 [INF] Route matched with {action = "DeleteCustomer", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteCustomer(System.String) on controller WebApplication1.Controllers.CustomerController (WebApplication1).
+2025-12-13 10:54:42.183 +08:00 [ERR] Unable to find customer abcd for deletion
+2025-12-13 10:54:42.204 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'WebApplication1.Models.CustomerResult'.
+2025-12-13 10:54:42.245 +08:00 [INF] Executed action WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1) in 336.7624ms
+2025-12-13 10:54:42.246 +08:00 [INF] Executed endpoint 'WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1)'
+2025-12-13 10:54:42.248 +08:00 [INF] Request finished HTTP/2 DELETE https://localhost:44369/Customer/Delete/abcd - 400 null application/json; charset=utf-8 485.0476ms
+2025-12-13 10:55:02.511 +08:00 [INF] Request starting HTTP/2 DELETE https://localhost:44369/Customer/Delete/abcd - null null
+2025-12-13 10:55:02.523 +08:00 [INF] Executing endpoint 'WebApplication1.Controllers.CustomerController.DeleteCustomer (WebApplication1)'
+2025-12-13 10:55:02.524 +08:00 [INF] Route matched with {action = "DeleteCustomer", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] DeleteCustomer(System.String) on controller WebApplication1.Controllers.CustomerController (WebApplication1).
+2025-12-13 10:55:22.710 +08:00 [ERR] Unable to find customer abcd for deletion

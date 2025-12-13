@@ -28,6 +28,7 @@ namespace WebApplication1.Controllers
                 var result =  await _customerService.GetCustomerRecords(id);
                 if (result.Customer is null)
                 {
+                    _logger.LogError(result.Message);
                     return BadRequest(result);
                 }
                 return Ok(result);
@@ -50,6 +51,7 @@ namespace WebApplication1.Controllers
                 var result = await _customerService.InsertCustomerResult(submitCustomerRecord);
                 if (!result.IsSuccess)
                 {
+                    _logger.LogError(result.Message);
                     return BadRequest(result);
                 }
 
@@ -72,6 +74,7 @@ namespace WebApplication1.Controllers
                 var result = await _customerService.DeleteCustomerResult(id);
                 if (!result.IsSuccess)
                 {
+                    _logger.LogError(result.Message);
                     return BadRequest(result);
                 }
                 return Ok(result);

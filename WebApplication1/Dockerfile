@@ -17,8 +17,5 @@ WORKDIR /app
 # Copy published files from build stage
 COPY --from=build /app/publish .
 
-# Expose port
-EXPOSE 80
-
 # Start the app
 ENTRYPOINT ["dotnet", "WebApplication1.dll"]
